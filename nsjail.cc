@@ -101,12 +101,12 @@ static bool setTimer(nsjconf_t* nsjconf) {
 	struct itimerval it = {
 	    .it_interval =
 		{
-		    .tv_sec = 1,
+		    .tv_sec = 2,
 		    .tv_usec = 0,
 		},
 	    .it_value =
 		{
-		    .tv_sec = 1,
+		    .tv_sec = 2,
 		    .tv_usec = 0,
 		},
 	};
